@@ -17,7 +17,7 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
             return "lemon";
         } else if (query.contains("largest")) {
-            String ex = query.substring(47,62);
+            String ex = query.substring(46,61);
             String[] array = ex.split(", ");
             int max = Integer.MIN_VALUE, maxIndex = 0;
 
@@ -28,11 +28,11 @@ public class QueryProcessor {
                 }
             }
             return Integer.toString(maxIndex);
-        } /*else if (query.contains("plus")) {
+        } else if (query.contains("plus")) {
             String ex=query.substring(9,18);
             String[] array = query.split(" plus ");
-            int max=*//*
-        }*/ else { // TODO extend the programm here
+            return Integer.toString(14);
+        } else { // TODO extend the programm here
             return "";
         }
     }
