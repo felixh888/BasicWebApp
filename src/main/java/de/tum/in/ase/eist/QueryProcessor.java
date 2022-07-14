@@ -30,8 +30,8 @@ public class QueryProcessor {
             return Integer.toString(maxIndex);
         } /*else if (query.contains("plus")) {
             String[] array = query.split(" plus ");
-            int no1 = Arrays.stream(array).sorted();*/
-        } else { // TODO extend the programm here
+            int no1 = Arrays.stream(array).sorted();
+        } */else { // TODO extend the programm here
             return "";
         }
     }
